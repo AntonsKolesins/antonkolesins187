@@ -1,0 +1,29 @@
+#Fails 231.py
+#Autors: Antons Kolesins
+from PythonMagick import Image
+
+
+bilde = open ( "sun.jpg")
+
+# Izveidojam mainigos x un y
+
+#Uzstaada objekta 'bilde' x,y pixela kraasu
+
+bilde( 1,1)
+bilde( 1,2)
+bilde( 1,3)
+bilde( 2,1)
+bilde( 2,2)
+bildelor( 2,3)
+bilde.pixelColor( 3,1)
+bilde.pixelColor( 3,2)
+bilde.pixelColor( 3,3)
+
+
+bilde.scale ("300x300")
+
+#Objektu 'bilde' ieraksta failaa
+bilde.write("999.png") 
+
+
+
